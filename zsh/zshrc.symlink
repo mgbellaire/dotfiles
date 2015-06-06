@@ -65,10 +65,6 @@ export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PA
 
 export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
 
-# Add options to `ls`
-#alias ls='ls -aGhl'
-alias grepr='grep -Rn'
-
 # Editor variable
 export GIT_EDITOR='vim'
 
