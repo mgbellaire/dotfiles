@@ -15,10 +15,14 @@ HIST_STAMPS='mm/dd/yyyy'
 # Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
 plugins=(git)
 
+# Source the oh-my-zsh repository for ZSH.
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+######################
+# User configuration #
+######################
 
+# $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
@@ -28,35 +32,12 @@ export PATH="$(brew --prefix  homebrew/php/php55)/bin:$PATH" # Add homebrew's ph
 export PATH="$HOME/.composer/vendor/bin:$PATH" # Add composer's bin directory to PATH.
 export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PATH.
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#
-# Mark Bellaire
-#
-
+# Set local Meteor packages directory.
 export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
 
 # Editor variable
