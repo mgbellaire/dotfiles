@@ -1,5 +1,7 @@
 # mgbellaire does dotfiles
 
+Based on [Zach Holman's dotfiles](https://github.com/holman/dotfiles)
+
 ## dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
