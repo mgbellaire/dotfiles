@@ -52,25 +52,6 @@ export TERM=screen-256color
 export DISABLE_AUTO_TITLE=true
 
 # Git configuration
-
-#alias gits='git status -sb'
-#alias gitc='git commit'
-#alias gita='git add'
-#alias gitaa='git add -a'
-alias gs='git status -sb'
-alias ga='git add'
-#alias gb='git branch'
-alias gc='git commit'
-alias gd='git diff'
-alias go='git checkout'
-#alias gr='git rebase'
-alias gp='git push'
-alias gdh='git diff HEAD'
-alias gfa='git fetch --all'
-alias gfo='git fetch origin'
-alias gfu='git fetch upstream'
-alias gpo='git push origin'
-alias gpu='git push upstream'
 alias git='hub'
 
 # cd .. aliases (http://www.thegeekstuff.com/2008/10/6-awesome-linux-cd-command-hacks-productivity-tip3-for-geeks/)
