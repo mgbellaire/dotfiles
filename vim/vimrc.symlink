@@ -1,0 +1,89 @@
+" VUNDLE START
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" GitGutter
+Plugin 'airblade/vim-gitgutter'
+
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'junegunn/goyo.vim'
+
+" Vim plugin for Drupal
+Plugin 'git://drupalcode.org/project/vimrc.git', {'rtp': 'bundle/vim-plugin-for-drupal/'}
+
+" Vim plugin for powerline
+Plugin 'bling/vim-airline'
+
+" Coffeescript for vim
+Plugin 'kchmck/vim-coffee-script'
+
+" tmux-airline
+Plugin 'ramiroaraujo/alfred-tmux-workflow'
+
+" Airline for tmux
+Plugin 'edkolev/tmuxline.vim'
+
+" More git integration
+Plugin 'tpope/vim-fugitive'
+
+" Better file search
+Plugin 'kien/ctrlp.vim'
+
+" Syntastic for better code syntax
+Plugin 'scrooloose/syntastic'
+
+" Commenting plugin
+Plugin 'tpope/vim-commentary'
+
+" Plugin to add the "s" vocabulary standing for "surround"
+Plugin 'tpope/vim-surround'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+" VUNDLE END
+
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+
+" Influences the working of <BS>, <Del>, CTRL-W and CTRL-U in Insert
+" mode.  This is a list of items, separated by commas.  Each item allows
+" a way to backspace over something: indent, eol, start.
+" '2' enable's full vim mode.
+set backspace=2
+
+" Set title of vim
+set title
+
+" Map leader to ','
+let mapleader = ","
+
+" Show whitespace when ',s' is typed
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
+
+" Stop distracting your co-workers
+set visualbell
+
+" No .swp files
+set noswapfile
