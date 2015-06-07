@@ -41,8 +41,5 @@ export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PA
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-# Set local Meteor packages directory.
-export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
-
 # Quick source of zshrc file
 alias sozsh='source ~/.zshrc'
