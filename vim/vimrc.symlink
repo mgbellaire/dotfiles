@@ -72,9 +72,5 @@ set title
 " Map leader to ','
 let mapleader = ","
 
-" Show whitespace when ',s' is typed
-set listchars=tab:>-,trail:·,eol:$
-nmap <silent> <leader>s :set nolist!<CR>
-
 " No .swp files
 set noswapfile
