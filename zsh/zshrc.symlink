@@ -48,17 +48,7 @@ alias sozsh='source ~/.zshrc'
 
 # Tmux configuration
 export TERM=screen-256color
-
 export DISABLE_AUTO_TITLE=true
 
 # Git configuration
 alias git='hub'
-
-# cd .. aliases (http://www.thegeekstuff.com/2008/10/6-awesome-linux-cd-command-hacks-productivity-tip3-for-geeks/)
-alias ..2="cd ../.."
-alias ..3="cd ../../.."
-alias ..4="cd ../../../.."
-alias ..5="cd ../../../../.."
-
-# mkdir alias to cd into directory after creating it
-function mkdircd () { mkdir -p "$@" && eval cd "\"\$$#\""; }
