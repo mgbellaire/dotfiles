@@ -5,6 +5,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# ZSH Theme.
+ZSH_THEME='dstufft'
+
+# Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
+plugins=(git)
+
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
@@ -14,17 +20,11 @@ HIST_STAMPS='mm/dd/yyyy'
 source $ZSH/oh-my-zsh.sh
 
 ######################
-# User configuration #
+# User Configuration #
 ######################
 
 # Geronimo! (display ascii art banner)
 cat $HOME/etc/mac/zsh/tardis_allonsy_and_hb5_ascii.txt
-
-# ZSH Theme.
-ZSH_THEME='dstufft'
-
-# Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
-plugins=(git)
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
