@@ -44,9 +44,6 @@ export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PA
 # Set local Meteor packages directory.
 export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
 
-# Editor variable
-export GIT_EDITOR='vim'
-
 # Quick source of zshrc file
 alias sozsh='source ~/.zshrc'
 
