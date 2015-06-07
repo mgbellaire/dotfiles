@@ -47,14 +47,7 @@ export GIT_EDITOR='vim'
 alias sozsh='source ~/.zshrc'
 
 # Tmux configuration
-#alias tmux='TERM=screen-256color-bce tmux'
 export TERM=screen-256color
-
-alias tma='tmux attach -t'
-alias tmns='tmux new-session -s'
-#alias tmnw='tmux neww -c .'
-#alias tmks='tmux kill-session -t'
-#alias tmd='tmux detach'
 
 export DISABLE_AUTO_TITLE=true
 
