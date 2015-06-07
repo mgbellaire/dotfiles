@@ -76,8 +76,5 @@ let mapleader = ","
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
-" Stop distracting your co-workers
-set visualbell
-
 " No .swp files
 set noswapfile
