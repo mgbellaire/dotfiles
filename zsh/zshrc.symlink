@@ -46,10 +46,3 @@ export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
 
 # Quick source of zshrc file
 alias sozsh='source ~/.zshrc'
-
-# Tmux configuration
-export TERM=screen-256color
-export DISABLE_AUTO_TITLE=true
-
-# Git configuration
-alias git='hub'
