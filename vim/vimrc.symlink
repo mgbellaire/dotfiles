@@ -66,12 +66,6 @@ filetype plugin indent on    " required
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" Influences the working of <BS>, <Del>, CTRL-W and CTRL-U in Insert
-" mode.  This is a list of items, separated by commas.  Each item allows
-" a way to backspace over something: indent, eol, start.
-" '2' enable's full vim mode.
-set backspace=2
-
 " Set title of vim
 set title
 
