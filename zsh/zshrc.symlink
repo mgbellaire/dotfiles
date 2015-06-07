@@ -43,9 +43,6 @@ export PACKAGE_DIRS="$HOME/Projects/meteor-packages"
 # Editor variable
 export GIT_EDITOR='vim'
 
-# Editing command
-#alias edit="open $1 -a $EDITOR"
-
 # Quick source of zshrc file
 alias sozsh='source ~/.zshrc'
 
