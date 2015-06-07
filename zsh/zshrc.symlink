@@ -24,7 +24,7 @@ source $ZSH/oh-my-zsh.sh
 ######################
 
 # Geronimo! (display ascii art banner)
-cat $HOME/etc/mac/zsh/tardis_allonsy_and_hb5_ascii.txt
+cat $HOME/etc/mac/zsh/banner.txt
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
