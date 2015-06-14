@@ -1,6 +1,3 @@
-# Tmuxline
-source-file ~/.tmux.conf.airline
-
 # Set Ctrl-a as a prefix.
 #set prefix C-a
 # Unbind the default prefix, Ctrl-b.
