@@ -37,6 +37,13 @@ Plugin 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
 call vundle#end() " Required by Vundle.
 filetype plugin indent on " Required by Vundle.
 
+"""""""""""
+" Airline "
+"""""""""""
+set laststatus=2 " Display vim-airline before opening a new pane.
+let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
+let g:airline_powerline_fonts = 1 " Use Powerline font. (Those are added as an actual font in iTerm) [powerline-font]
+
 """"""""""""""
 " References "
 """"""""""""""
@@ -44,3 +51,4 @@ filetype plugin indent on " Required by Vundle.
 " [vundle]: https://github.com/gmarik/Vundle.vim
 " [vim-airline]: https://github.com/bling/vim-airline
 " [vim-fugitive]: https://github.com/tpope/vim-fugitive
+" [powerline-font]: https://github.com/abertsch/Menlo-for-Powerline
