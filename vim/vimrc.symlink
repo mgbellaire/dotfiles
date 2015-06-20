@@ -20,3 +20,4 @@ set tabstop=2 " Set tab size to 2.
 set shiftwidth=2
 set autoindent " Indent new lines to indentation of the previous line.
 set smartindent " Smartly indent new lines after brackets, braces, and parenthesis.
+set bs=2 " Allow deleting at the end of lines, indentation and start of line.
