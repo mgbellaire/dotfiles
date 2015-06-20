@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Save the name of the document.
+DOC=$1
+
+# Start editing the file in Vim. (When the file is *first* saved, it will be created)
+vim $HOME/Dropbox/Documents/Notes/"${DOC}".txt
