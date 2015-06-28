@@ -4,6 +4,7 @@
 #unbind-key C-b
 # Bind Ctrl-a as the new prefix.
 #bind-key C-a send-prefix
+set -g status-justify centre # center align window list
 
 # Act like Vim
 set-window-option -g mode-keys vi
