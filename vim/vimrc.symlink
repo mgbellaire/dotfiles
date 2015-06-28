@@ -10,6 +10,9 @@ set number " Show line numbers.
 syntax on " Use syntax highlighting.
 set background=dark " Use dark colored background.
 colorscheme solarized " Use Solarized colors in ~/.vim/colors.
+" Show trailing whitespace (next two lines)
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 
 """""""""""
 " Editing "
