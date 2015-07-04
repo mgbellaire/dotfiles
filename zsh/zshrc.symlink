@@ -2,11 +2,13 @@
 # ZSH Configuration #
 #####################
 
+export ZSH_CUSTOM=$HOME/.zsh-custom
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH Theme.
-ZSH_THEME='agnoster'
+ZSH_THEME='robbyrussell-custom'
 
 # Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
 plugins=(git)
