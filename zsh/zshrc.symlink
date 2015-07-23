@@ -35,6 +35,7 @@ cat $HOME/dotfiles/zsh/banner.txt
 
 # Quick source of zshrc file
 alias sozsh='source ~/.zshrc'
+alias sozshc='source ~/.zshrc;clear'
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
