@@ -33,9 +33,10 @@ filetype off " Required by Vundle.
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim' " let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim' " Let Vundle manage Vundle. (required)
 Plugin 'bling/vim-airline' " Display more information in statusline. [vim-airline]
 Plugin 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
+Plugin 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
 
 call vundle#end() " Required by Vundle.
 filetype plugin indent on " Required by Vundle.
@@ -55,3 +56,4 @@ let g:airline_powerline_fonts = 1 " Use Powerline font. (Those are added as an a
 " [vim-airline]: https://github.com/bling/vim-airline
 " [vim-fugitive]: https://github.com/tpope/vim-fugitive
 " [powerline-font]: https://github.com/abertsch/Menlo-for-Powerline
+" [vim-gitgutter]: https://github.com/airblade/vim-gitgutter
