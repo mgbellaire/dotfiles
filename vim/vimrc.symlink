@@ -9,10 +9,11 @@ set noswapfile " Do not create .swp files.
 set number " Show line numbers.
 syntax on " Use syntax highlighting.
 "set background=dark " Use dark colored background.
-colorscheme monokai " Use Solarized colors in ~/.vim/colors.
+"colorscheme monokai " Use Solarized colors in ~/.vim/colors.
 " Show trailing whitespace (next two lines)
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+set cursorline " Underline the line the cursor is on.
 
 """""""""""
 " Editing "
