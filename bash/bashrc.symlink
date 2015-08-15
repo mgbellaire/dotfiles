@@ -26,7 +26,9 @@ alias grep='grep --color=always'
 alias sob='source ~/.bashrc'
 alias _=sudo
 history='fc -fl 1'
-export PS1='$(pwd)\n$ '
+
+# prompt
+export PS1=' $(pwd)\n$ '
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
