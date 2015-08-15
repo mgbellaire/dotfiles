@@ -3,9 +3,11 @@ alias ll='ls -lh'
 alias l='ls -lah'
 
 # git
+alias g='git'
 alias ga='git add'
 alias gc='git commit -v'
 alias gco='git checkout'
+alias gd='git diff'
 alias grb='git rebase'
 alias gr='git remote'
 alias gst='git status'
