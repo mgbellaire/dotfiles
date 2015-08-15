@@ -8,6 +8,7 @@ alias ga='git add'
 alias gc='git commit -v'
 alias gco='git checkout'
 alias gd='git diff'
+alias gdca='git diff --cached'
 alias grb='git rebase'
 alias gr='git remote'
 alias gst='git status'
@@ -17,6 +18,9 @@ alias cd1='cd ..'
 alias cd2='cd ../..'
 alias cd3='cd ../../..'
 alias cd4='cd ../../../..'
+
+# grep
+alias grep='grep --color=always'
 
 # bash
 alias sob='source ~/.bashrc'
