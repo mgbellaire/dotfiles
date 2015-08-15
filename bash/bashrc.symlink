@@ -28,7 +28,7 @@ alias _=sudo
 history='fc -fl 1'
 
 # prompt
-export PS1=' $(pwd)\n$ '
+export PS1='  $(pwd)\n$ '
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
