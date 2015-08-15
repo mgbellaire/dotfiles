@@ -5,8 +5,8 @@
 # Bind Ctrl-a as the new prefix.
 #bind-key C-a send-prefix
 set -g status-justify centre # center align window list
-set -g status-bg colour0
-set -g status-fg colour2
+set -g status-bg colour7
+set -g status-fg colour0
 set -g status-right "%H:%M %d-%b-%y"
 set-option -g allow-rename off
 
