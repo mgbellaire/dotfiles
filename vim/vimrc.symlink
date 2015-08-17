@@ -10,10 +10,11 @@ set number " Show line numbers.
 syntax on " Use syntax highlighting.
 set background=light " Use light colored background.
 colorscheme solarized " Use Solarized colors in ~/.vim/colors.
+set cursorline " Underline the line the cursor is on.
+
 " Show trailing whitespace (next two lines)
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
-set cursorline " Underline the line the cursor is on.
 
 """""""""""
 " Editing "
