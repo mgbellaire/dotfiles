@@ -8,7 +8,7 @@ set noswapfile " Do not create .swp files.
 """""""""""""""""
 set number " Show line numbers.
 syntax on " Use syntax highlighting.
-set background=light " Needed to specify specific solarized type. (dark or light)
+set background=dark " Needed to specify specific solarized type. (dark or light)
 colorscheme solarized " Use Solarized colors in ~/.vim/colors.
 set cursorline " Underline the line the cursor is on.
 
