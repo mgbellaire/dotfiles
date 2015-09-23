@@ -8,7 +8,7 @@ export ZSH_CUSTOM=$HOME/.zsh-custom
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH Theme.
-ZSH_THEME='lukerandall'
+ZSH_THEME='nanotech'
 # Use the liquidprompt cloned in $HOME.
 #[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
 
