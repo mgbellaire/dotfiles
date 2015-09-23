@@ -107,5 +107,8 @@
   "validateQuoteMarks": {
     "mark": "'",
     "escape": true
-  }
+  },
+
+  // http://jscs.info/rule/requireCapitalizedComments.html
+  "requireCapitalizedComments": true
 }
