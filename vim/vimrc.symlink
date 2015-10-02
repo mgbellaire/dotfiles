@@ -49,6 +49,7 @@ filetype plugin indent on " Required by Vundle.
 set laststatus=2 " Display vim-airline before opening a new pane.
 let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
 let g:airline_powerline_fonts = 1 " Use Powerline font. (Those are added as an actual font in iTerm) [powerline-font]
+let g:airline_theme = 'simple' " Use the 'simple' theme for airline
 
 """"""""""""""
 " References "
