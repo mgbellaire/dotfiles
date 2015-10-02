@@ -49,3 +49,7 @@ mup.json
 # Libre Office #
 ################
 .~*
+
+# ctags #
+#########
+tags
