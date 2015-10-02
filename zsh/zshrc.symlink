@@ -13,7 +13,7 @@ ZSH_THEME='minimal'
 #[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
 
 # Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
-plugins=(brew git vi-mode)
+plugins=(brew git vi-mode composer)
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
