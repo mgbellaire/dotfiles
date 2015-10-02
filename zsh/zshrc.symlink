@@ -39,6 +39,13 @@ cat $HOME/dotfiles/zsh/banner.txt
 alias sozsh='source ~/.zshrc'
 alias sozshc='source ~/.zshrc;clear'
 
+# Deeter's multitail alias.
+alias logs='multitail -D --mergeall /var/log/apache2/access_log /var/log/apache2/error_log'
+# Tail Drupal debug logs.
+alias taildd='clear;touch /tmp/drupal_debug.txt;tail -f /tmp/drupal_debug.txt'
+# PHP CodeSniffer alias for Drupal.
+alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt' --ignore='*.features.*.inc'"
+
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
