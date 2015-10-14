@@ -40,7 +40,7 @@ Plugin 'bling/vim-airline' " Display more information in statusline. [vim-airlin
 Plugin 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
 Plugin 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
 Plugin 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
-Plugin 'plasticboy/vim-markdown' " Markdown Vim Mode [plasticboy/vim-markdown]
+Plugin 'tpope/vim-markdown' " Markdown syntax highlighting [vim-markdown]
 
 call vundle#end() " Required by Vundle.
 filetype plugin indent on " Required by Vundle.
@@ -63,4 +63,4 @@ let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline
 " [powerline-font]: https://github.com/abertsch/Menlo-for-Powerline
 " [vim-gitgutter]: https://github.com/airblade/vim-gitgutter
 " [tabular]: https://github.com/godlygeek/tabular
-" [vim-markdown]: https://github.com/plasticboy/vim-markdown
+" [vim-markdown]: https://github.com/tpope/vim-markdown
