@@ -8,4 +8,4 @@ set shiftwidth=4
 """""""""""""""""
 " Look and feel "
 """""""""""""""""
-set cursorline!
+set cursorline! " I do not use the cursor line when editing markdown.
