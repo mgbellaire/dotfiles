@@ -36,8 +36,7 @@ cat $HOME/dotfiles/zsh/banner.txt
 # For a full list of active aliases, run `alias`.
 
 # Quick source of zshrc file
-alias sozsh='source ~/.zshrc'
-alias sozshc='source ~/.zshrc;clear'
+alias sozsh='clear;source ~/.zshrc'
 
 # Deeter's multitail alias.
 alias logs='multitail -D --mergeall /var/log/apache2/access_log /var/log/apache2/error_log'
