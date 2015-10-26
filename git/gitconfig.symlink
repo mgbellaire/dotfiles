@@ -38,3 +38,8 @@
   prompt = false
 [diff]
   tool = Kaleidoscope
+[color]
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
