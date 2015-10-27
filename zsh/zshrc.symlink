@@ -35,6 +35,7 @@ cat $HOME/dotfiles/zsh/banner.txt
 
 # Quick source of zshrc file
 alias sozsh='clear;source ~/.zshrc'
+alias gpom='git push origin master' # I use this to update the master branch.
 
 # Deeter's multitail alias.
 alias logs='multitail -D --mergeall /var/log/apache2/access_log /var/log/apache2/error_log'
