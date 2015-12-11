@@ -12,7 +12,7 @@ set background=dark " Needed to specify specific solarized type. (dark or light)
 colorscheme solarized " Use Solarized colors in ~/.vim/colors.
 set cursorline " Underline the line the cursor is on.
 
-" Show trailing whitespace (next two lines)
+" Show trailing whitespace (next two lines).
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
@@ -32,16 +32,16 @@ set bs=2 " Allow deleting at the end of lines, indentation and start of line.
 """""""""""""""""""
 filetype off " Required by Vundle.
 
-" Set the runtime path to include Vundle and initialize. (next two lines)
+" Set the runtime path to include Vundle and initialize (next two lines).
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim' " Let Vundle manage Vundle. (required)
+Plugin 'gmarik/Vundle.vim' " Let Vundle manage Vundle (required).
 Plugin 'bling/vim-airline' " Display more information in statusline. [vim-airline]
 Plugin 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
 Plugin 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
 Plugin 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
-Plugin 'tpope/vim-markdown' " Markdown syntax highlighting [vim-markdown]
+Plugin 'tpope/vim-markdown' " Highlight with markdown syntax. [vim-markdown]
 
 call vundle#end() " Required by Vundle.
 filetype plugin indent on " Required by Vundle.
@@ -51,8 +51,8 @@ filetype plugin indent on " Required by Vundle.
 """""""""""
 set laststatus=2 " Display vim-airline before opening a new pane.
 let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
-let g:airline_powerline_fonts = 1 " Use Powerline font. (Those are added as an actual font in iTerm) [powerline-font]
-let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline
+let g:airline_powerline_fonts = 1 " Use Powerline font (Those are added as an actual font in iTerm). [powerline-font]
+let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline.
 
 """"""""""
 " Drupal "
