@@ -15,6 +15,7 @@ set cursorline " Underline the line the cursor is on.
 " Show trailing whitespace (next two lines)
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 
 """""""""""
 " Editing "
