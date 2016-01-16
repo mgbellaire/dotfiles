@@ -88,3 +88,7 @@ weight of my changes and tweaks inspired me to finally roll my own. But Ryan's
 dotfiles were an easy way to get into bash customization, and then to jump ship
 to zsh a bit later. A decent amount of the code in these dotfiles stem or are
 inspired from Ryan's original project.
+
+## OS X Setup
+- [tmux pasteboard workaround](https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard)
+Found this while trying to use [Noti](https://github.com/variadico/noti) inside of tmux.
