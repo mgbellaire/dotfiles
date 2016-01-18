@@ -9,8 +9,8 @@ set noswapfile " Do not create .swp files.
 set number " Show line numbers.
 syntax on " Use syntax highlighting.
 set background=dark " Needed to specify specific solarized type. (dark or light)
-colorscheme solarized " Use Solarized colors in ~/.vim/colors.
-set cursorline " Underline the line the cursor is on.
+colorscheme monokai " Use Solarized colors in ~/.vim/colors.
+"set cursorline " Underline the line the cursor is on.
 
 " Show trailing whitespace (next two lines).
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -52,7 +52,7 @@ filetype plugin indent on " Required by Vundle.
 set laststatus=2 " Display vim-airline before opening a new pane.
 let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
 let g:airline_powerline_fonts = 1 " Use Powerline font (Those are added as an actual font in iTerm). [powerline-font]
-let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline.
+"let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline.
 
 """"""""""
 " Drupal "
