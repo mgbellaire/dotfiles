@@ -33,6 +33,9 @@ cat $HOME/dotfiles/zsh/banner.txt
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# Search for a process by name.
+alias pss='ps -ax | grep -i '
+
 # Quick source of zshrc file
 alias sozsh='clear;source ~/.zshrc'
 alias gpom='git push origin master' # I use this to update the master branch.
