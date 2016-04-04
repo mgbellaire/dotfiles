@@ -7,14 +7,8 @@ set noswapfile " Do not create .swp files.
 " Look and Feel "
 """""""""""""""""
 set number " Show line numbers.
-syntax on " Use syntax highlighting.
 set background=dark " Needed to specify specific solarized type. (dark or light)
 colorscheme monokai " Use Solarized colors in ~/.vim/colors.
-"set cursorline " Underline the line the cursor is on.
-
-" Show trailing whitespace (next two lines).
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 
 """""""""""
@@ -23,9 +17,6 @@ set scrolloff=5 " Set to show at least 5 lines above and below the cursor while 
 set expandtab " Expand tabs into spaces.
 set tabstop=2 " Set tab size to 2.
 set shiftwidth=2
-set autoindent " Indent new lines to indentation of the previous line.
-set smartindent " Smartly indent new lines after brackets, braces, and parenthesis.
-set bs=2 " Allow deleting at the end of lines, indentation and start of line.
 
 """""""""""""""""""
 " vim-plug [vim-plug] "
@@ -37,12 +28,12 @@ Plug 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
 Plug 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
 Plug 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
 Plug 'tpope/vim-markdown' " Highlight with markdown syntax. [vim-markdown]
+Plug 'tpope/vim-sensible'
 
 call plug#end()
 """""""""""
 " Airline "
 """""""""""
-set laststatus=2 " Display vim-airline before opening a new pane.
 let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
 let g:airline_powerline_fonts = 1 " Use Powerline font (Those are added as an actual font in iTerm). [powerline-font]
 "let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline.
