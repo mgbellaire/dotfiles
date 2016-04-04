@@ -28,24 +28,17 @@ set smartindent " Smartly indent new lines after brackets, braces, and parenthes
 set bs=2 " Allow deleting at the end of lines, indentation and start of line.
 
 """""""""""""""""""
-" Vundle [vundle] "
+" vim-plug [vim-plug] "
 """""""""""""""""""
-filetype off " Required by Vundle.
+call plug#begin('~/.vim/plugged')
 
-" Set the runtime path to include Vundle and initialize (next two lines).
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'bling/vim-airline' " Display more information in statusline. [vim-airline]
+Plug 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
+Plug 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
+Plug 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
+Plug 'tpope/vim-markdown' " Highlight with markdown syntax. [vim-markdown]
 
-Plugin 'gmarik/Vundle.vim' " Let Vundle manage Vundle (required).
-Plugin 'bling/vim-airline' " Display more information in statusline. [vim-airline]
-Plugin 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
-Plugin 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
-Plugin 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
-Plugin 'tpope/vim-markdown' " Highlight with markdown syntax. [vim-markdown]
-
-call vundle#end() " Required by Vundle.
-filetype plugin indent on " Required by Vundle.
-
+call plug#end()
 """""""""""
 " Airline "
 """""""""""
@@ -74,7 +67,7 @@ endif
 " References "
 """"""""""""""
 
-" [vundle]: https://github.com/gmarik/Vundle.vim
+" [vim-plug]: https://github.com/junegunn/vim-plug
 " [vim-airline]: https://github.com/bling/vim-airline
 " [vim-fugitive]: https://github.com/tpope/vim-fugitive
 " [powerline-font]: https://github.com/abertsch/Menlo-for-Powerline
