@@ -27,8 +27,8 @@ alias sob='source ~/.bashrc'
 alias _=sudo
 history='fc -fl 1'
 
-# prompt
-export PS1=' $(pwd)\n$ '
+# vim
+alias vi='vim'
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
