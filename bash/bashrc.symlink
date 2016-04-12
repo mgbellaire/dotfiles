@@ -30,6 +30,10 @@ history='fc -fl 1'
 # vim
 alias vi='vim'
 
+# tmux
+alias ts='tmux new -s'
+alias ta='tmux attach -t'
+
 # PATH (PHP)
 export PATH="$(brew --prefix  homebrew/php/php54)/bin:$PATH" # Add homebrew's php54 to PATH.
 # PATH (composer)
