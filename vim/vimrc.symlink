@@ -1,3 +1,10 @@
+filetype plugin on
+
+"""""""""""""
+" Vim Misc. "
+"""""""""""""
+source ~/.vim/custom/togglepaste.vim
+
 """""""
 " Git "
 """""""
@@ -7,8 +14,6 @@ set noswapfile " Do not create .swp files.
 " Look and Feel "
 """""""""""""""""
 set number " Show line numbers.
-set background=dark " Needed to specify specific solarized type. (dark or light)
-colorscheme monokai " Use Solarized colors in ~/.vim/colors.
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 
 """""""""""
@@ -21,48 +26,21 @@ set shiftwidth=2
 """""""""""""""""""
 " vim-plug [vim-plug] "
 """""""""""""""""""
-call plug#begin('~/.vim/plugged')
+source ~/.vim/custom/plugins.vim
 
-Plug 'bling/vim-airline' " Display more information in statusline. [vim-airline]
-Plug 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
-Plug 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
-Plug 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
-Plug 'tpope/vim-markdown' " Highlight with markdown syntax. [vim-markdown]
-Plug 'tpope/vim-sensible'
-
-call plug#end()
 """""""""""
 " Airline "
 """""""""""
-let g:airline#extensions#tabline#enabled = 1 " Enable the tabline extension to vim-airline.
-let g:airline_powerline_fonts = 1 " Use Powerline font (Those are added as an actual font in iTerm). [powerline-font]
-"let g:airline_theme = 'solarized' " Use the 'solarized' theme for airline.
+source ~/.vim/custom/vim-airline.vim
 
 """"""""""
 " Drupal "
 """"""""""
-" Set syntax as PHP for drupal files [drupal-highlighting].
-if has("autocmd")
-  " Drupal *.module and *.install files.
-  augroup module
-    autocmd BufRead,BufNewFile *.module set filetype=php
-    autocmd BufRead,BufNewFile *.install set filetype=php
-    autocmd BufRead,BufNewFile *.test set filetype=php
-    autocmd BufRead,BufNewFile *.inc set filetype=php
-    autocmd BufRead,BufNewFile *.profile set filetype=php
-    autocmd BufRead,BufNewFile *.view set filetype=php
-  augroup END
-endif
+source ~/.vim/custom/drupal.vim
 
 """"""""""""""
 " References "
 """"""""""""""
 
-" [vim-plug]: https://github.com/junegunn/vim-plug
-" [vim-airline]: https://github.com/bling/vim-airline
-" [vim-fugitive]: https://github.com/tpope/vim-fugitive
 " [powerline-font]: https://github.com/abertsch/Menlo-for-Powerline
-" [vim-gitgutter]: https://github.com/airblade/vim-gitgutter
-" [tabular]: https://github.com/godlygeek/tabular
-" [vim-markdown]: https://github.com/tpope/vim-markdown
 " [drupal-highlighting]: https://www.drupal.org/node/29325
