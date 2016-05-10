@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
-  Plug 'bling/vim-airline' " Display more information in statusline. [vim-airline]
+  Plug 'vim-airline/vim-airline' " Display more information in statusline. [vim-airline]
+  Plug 'vim-airline/vim-airline-themes' " Themes for vim-airline.
   Plug 'tpope/vim-fugitive' " This is a Git helper plugin. [vim-fugitive]
   Plug 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
   Plug 'godlygeek/tabular' " I mostly use this for Markdown tables. [tabular]
@@ -10,7 +11,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " [vim-plug]: https://github.com/junegunn/vim-plug
-" [vim-airline]: https://github.com/bling/vim-airline
+" [vim-airline]: https://github.com/vim-airline/vim-airline
 " [vim-fugitive]: https://github.com/tpope/vim-fugitive
 " [vim-gitgutter]: https://github.com/airblade/vim-gitgutter
 " [tabular]: https://github.com/godlygeek/tabular
