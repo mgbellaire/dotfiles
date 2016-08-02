@@ -14,7 +14,12 @@ set noswapfile " Do not create .swp files.
 " Look and Feel "
 """""""""""""""""
 set number " Show line numbers.
+set numberwidth=5 " Add a little more space to the width of line numbering coloumn.
+set colorcolumn=80
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
+set background=dark
+colorscheme solarized " http://www.vim.org/scripts/script.php?script_id=2555
+set cursorline
 
 """""""""""
 " Editing "
@@ -22,6 +27,7 @@ set scrolloff=5 " Set to show at least 5 lines above and below the cursor while 
 set expandtab " Expand tabs into spaces.
 set tabstop=2 " Set tab size to 2.
 set shiftwidth=2
+set shiftround " Allows for CTRL-D and CTRL-T to change indentation.
 
 """""""""""""""""""
 " vim-plug [vim-plug] "
@@ -37,6 +43,81 @@ source ~/.vim/custom/vim-airline.vim
 " Drupal "
 """"""""""
 source ~/.vim/custom/drupal.vim
+
+""""""""""""""""""""""""""
+" Vimscript The Hard Way "
+""""""""""""""""""""""""""
+let mapleader = ","
+let maplocalleader = "."
+nnoremap <leader><c-w> iWhat<enter>is<enter>this<enter>going<enter>to<enter>do?<enter><esc>
+
+" Move this line up one.
+nnoremap <leader>- ddp
+" Move this line down one.
+nnoremap <leader>_ ddkP
+
+" Make the current word uppercase (insert mode).
+inoremap <leader><c-u> <esc>viwUi
+" Make the current word uppercase (normal mode).
+nnoremap <leader><c-u> viwU
+
+" Edit .vimrc file.
+nnoremap <leader>ev :split $MYVIMRC<cr>
+" Source .vimrc file.
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Wrap word in single quotes.
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+" Wrap word in double quotes.
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+" Wrap selection in double quotes.
+vnoremap <leader>" <esc>a"<esc>`<i"<esc>lel
+" Wrap selection in single quotes.
+vnoremap <leader>' <esc>a'<esc>`<i'<esc>lel
+
+" Go to start of line.
+nnoremap H ^
+" Go to end of line.
+nnoremap L $
+
+" Better escape into Normal mode.
+inoremap jk <esc>
+" Better yet, train yourself to use this!
+inoremap <esc> <nop>
+inoremap <c-c> <nop>
+inoremap <c-[> <nop>
+
+" Common spelling errors.
+iabbrev dursh drush
+iabbrev teh the
+iabbrev waht what
+
+" Email, website, and signature
+iabbrev @@ markb@knowclassic.com
+iabbrev ssite http://markbellaire.com
+iabbrev ssig ---<cr>Mark Bellaire<cr>markb@knowclassic.com
+
+" PHP Arrays
+iabbrev aarr array(<cr>);
+
+"""""""""""""""""""
+" Custom Mappings "
+"""""""""""""""""""
+iabbrev fo for
+" Save shortcut. I do not use "zz"'s default functionality anyways.
+nnoremap zz :w<cr>
+" Force save shortcut. (used for Classic servers)
+nnoremap zZ :w!<cr>
+" Add new line above or below current line.
+nnoremap <leader>> o<esc>
+nnoremap <leader>< O<esc>
+" Move the closing brace down and edit inside the function.
+inoremap ,k <esc>i<cr><esc>O
+
+"""""""""""""""""
+" Auto Commands "
+"""""""""""""""""
+autocmd BufReadPre *.&filetype source ~/.vim/syntax/%{&filetype}.vim
 
 """"""""""""""
 " References "
