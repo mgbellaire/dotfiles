@@ -84,6 +84,7 @@ nnoremap L $
 
 " Better escape into Normal mode.
 inoremap jk <esc>
+
 " Better yet, train yourself to use this!
 inoremap <esc> <nop>
 inoremap <c-c> <nop>
@@ -115,6 +116,8 @@ nnoremap <leader>> o<esc>
 nnoremap <leader>< O<esc>
 " Move the closing brace down and edit inside the function.
 inoremap ,k <esc>i<cr><esc>O
+" Map to edit notes file. (example)
+nnoremap <Leader>nt :sp ~/Dropbox/work/notes.txt<cr>
 
 """""""""""""""""
 " Auto Commands "
