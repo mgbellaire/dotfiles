@@ -19,3 +19,8 @@ nnoremap _d <Plug>DittoBad
 " Show the next matches
 nnoremap ]d <Plug>DittoMore
 nnoremap [d <Plug>DittoLess
+
+" Use reedes/vim-color-pencil for better colors while writing.
+colorscheme pencil
+set background=light
+let g:airline_theme = 'pencil'
