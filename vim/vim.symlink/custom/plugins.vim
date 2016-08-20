@@ -23,3 +23,11 @@ call plug#end()
 " [vim-gitgutter]: https://github.com/airblade/vim-gitgutter
 " [tabular]: https://github.com/godlygeek/tabular
 " [vim-markdown]: https://github.com/tpope/vim-markdown
+" [vim-sensible]: https://github.com/tpope/vim-sensible
+" [goyo.vim]: https://github.com/junegunn/goyo.vim
+" [unite.vim]: https://github.com/Shougo/unite.vim
+" [unite-redpen.vim]: https://github.com/rhysd/unite-redpen.vim
+" [vim-wordy]: https://github.com/reedes/vim-wordy
+" [vim-ditto]: https://github.com/dbmrq/vim-ditto
+" [vim-pencil]: https://github.com/reedes/vim-pencil
+" [vim-colors-pencil]: https://github.com/reedes/vim-colors-pencil
