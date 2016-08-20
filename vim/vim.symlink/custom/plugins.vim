@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'reedes/vim-wordy', { 'for': ['text', 'markdown'] }
   Plug 'dbmrq/vim-ditto', { 'for': ['text', 'markdown'] }
   Plug 'reedes/vim-pencil', { 'for': ['text', 'markdown'] }
+  Plug 'reedes/vim-colors-pencil', { 'for': ['text', 'markdown'] }
 
 call plug#end()
 
