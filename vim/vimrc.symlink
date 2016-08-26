@@ -96,7 +96,6 @@ iabbrev teh the
 iabbrev waht what
 
 " Email, website, and signature
-iabbrev @@ markb@knowclassic.com
 iabbrev ssite http://markbellaire.com
 iabbrev ssig ---<cr>Mark Bellaire<cr>markb@knowclassic.com
 
