@@ -46,6 +46,11 @@ source ~/.vim/custom/vim-airline.vim
 """"""""""
 source ~/.vim/custom/drupal.vim
 
+""""""""""
+" MacVim "
+""""""""""
+source ~/.vim/custom/macvim.vim
+
 """"""""""""""""""""""""""
 " Vimscript The Hard Way "
 """"""""""""""""""""""""""
