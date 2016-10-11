@@ -21,5 +21,4 @@ nnoremap ]d <Plug>DittoMore
 nnoremap [d <Plug>DittoLess
 
 " Use reedes/vim-color-pencil for better colors while writing.
-colorscheme pencil
 let g:airline_theme = 'pencil'
