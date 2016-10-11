@@ -18,7 +18,7 @@ set numberwidth=5 " Add a little more space to the width of line numbering colou
 set colorcolumn=80
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 set background=dark
-colorscheme solarized " http://www.vim.org/scripts/script.php?script_id=2555
+colorscheme pablo
 set cursorline
 " Don't show the intro message when starting vim.
 set shortmess=atI
