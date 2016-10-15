@@ -8,10 +8,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-markdown', { 'for': ['text', 'markdown'] } " Highlight with markdown syntax. [vim-markdown]
   Plug 'tpope/vim-sensible'
   Plug 'junegunn/goyo.vim', { 'for': ['text', 'markdown'] }
-  Plug 'Shougo/unite.vim', { 'for': ['text', 'markdown'] }
-  Plug 'rhysd/unite-redpen.vim', { 'for': ['text', 'markdown'] }
-  Plug 'reedes/vim-wordy', { 'for': ['text', 'markdown'] }
-  Plug 'dbmrq/vim-ditto', { 'for': ['text', 'markdown'] }
+  "Plug 'Shougo/unite.vim', { 'for': ['text', 'markdown'] }
+  "Plug 'rhysd/unite-redpen.vim', { 'for': ['text', 'markdown'] }
+  "Plug 'reedes/vim-wordy', { 'for': ['text', 'markdown'] }
+  "Plug 'dbmrq/vim-ditto', { 'for': ['text', 'markdown'] }
   Plug 'reedes/vim-pencil', { 'for': ['text', 'markdown'] }
   Plug 'reedes/vim-colors-pencil', { 'for': ['text', 'markdown'] }
 
