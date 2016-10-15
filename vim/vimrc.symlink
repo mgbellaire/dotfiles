@@ -50,6 +50,11 @@ source ~/.vim/custom/drupal.vim
 """"""""""
 source ~/.vim/custom/macvim.vim
 
+"""""""""
+" CtrlP "
+"""""""""
+source ~/.vim/custom/ctrlp.vim
+
 """"""""""""""""""""""""""
 " Vimscript The Hard Way "
 """"""""""""""""""""""""""

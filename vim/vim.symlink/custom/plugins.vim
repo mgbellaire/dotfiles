@@ -14,6 +14,7 @@ call plug#begin('~/.vim/plugged')
   "Plug 'dbmrq/vim-ditto', { 'for': ['text', 'markdown'] }
   Plug 'reedes/vim-pencil', { 'for': ['text', 'markdown'] }
   Plug 'reedes/vim-colors-pencil', { 'for': ['text', 'markdown'] }
+  Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
