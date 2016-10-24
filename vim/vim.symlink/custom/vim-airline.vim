@@ -16,3 +16,6 @@ let g:airline_symbols.whitespace = 'Ξ'
 
 " Enable the tabline extension to vim-airline.
 let g:airline#extensions#tabline#enabled = 1
+
+" Use lucius theme from vim-airline-themes plugin.
+let g:airline_theme = 'lucius'
