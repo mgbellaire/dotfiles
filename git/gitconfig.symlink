@@ -25,7 +25,6 @@
   gpr-upstream = !sh -c \"git fetch upstream pull/${1}/head:pr/${1} && git checkout pr/${1}\" -
   # git-update-master: Update a local repo, rebase upstream/master, and push the newly updated branch to the fork (origin).
   gum = !sh -c \"git fetch upstream && git rebase upstream/master && git push origin master\" -
-  gbdpr = git branch -r --merged | grep -v upstream | sed 's/origin\///' | xargs -n 1 git push --delete origin
 [mergetool "Kaleidoscope"]
   cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
   trustexitcode = true
