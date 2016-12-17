@@ -25,8 +25,8 @@ source $ZSH/oh-my-zsh.sh
 # User Configuration #
 ######################
 
-# Geronimo! (display ascii art banner)
-cat $HOME/dotfiles/zsh/banner.txt
+# Welcome message.
+echo 'Allons-y!'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
