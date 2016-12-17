@@ -47,7 +47,9 @@ alias taildd='clear;touch /tmp/drupal_debug.txt;tail -f /tmp/drupal_debug.txt'
 # PHP CodeSniffer alias for Drupal.
 alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt' --ignore='*.features.*.inc'"
 
-# Alias vi to vim
+#######
+# Vim #
+#######
 alias vi='vim'
 
 # $PATH variables. (These are in a particular order.)
