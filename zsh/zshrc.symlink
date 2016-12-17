@@ -56,6 +56,14 @@ alias vi='vim'
 # Grep #
 ########
 alias grr='grep -Rn'
+
+########
+# Brew #
+########
+alias b='brew'
+alias bo='brew outdated'
+alias bu='brew upgrade'
+
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
