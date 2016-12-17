@@ -69,6 +69,15 @@ alias bu='brew upgrade'
 ###########
 alias v='vagrant'
 
+######
+# CD #
+######
+alias ..2='../..'
+alias ..3='../../..'
+alias ..4='../../../..'
+alias ..5='../../../../..'
+alias ..6='../../../../../..'
+
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
