@@ -52,6 +52,10 @@ alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,i
 #######
 alias vi='vim'
 
+########
+# Grep #
+########
+alias grr='grep -Rn'
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export PATH="/usr/local/bin:$HOME/bin:$PATH"
