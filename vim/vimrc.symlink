@@ -15,10 +15,9 @@ set noswapfile " Do not create .swp files.
 """""""""""""""""
 set number " Show line numbers.
 set numberwidth=5 " Add a little more space to the width of line numbering coloumn.
-set colorcolumn=80
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 set background=dark
-colorscheme pablo
+colorscheme monokai
 set cursorline
 set shortmess=atI " Don't show the intro message when starting vim.
 
