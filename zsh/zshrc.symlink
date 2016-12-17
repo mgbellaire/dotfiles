@@ -8,10 +8,10 @@ export ZSH_CUSTOM=$HOME/.zsh_custom
 export ZSH=$HOME/.oh-my-zsh
 
 # ZSH Theme.
-ZSH_THEME='geoffgarside'
+ZSH_THEME='ys'
 
 # Add plugins here. (Add wisely, as too many plugins slow down shell startup.)
-plugins=(brew tmux)
+plugins=(git brew tmux history)
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -25,8 +25,8 @@ source $ZSH/oh-my-zsh.sh
 # User Configuration #
 ######################
 
-# Geronimo! (display ascii art banner)
-cat $HOME/dotfiles/zsh/banner.txt
+# Welcome message.
+echo 'Allons-y!'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -47,8 +47,36 @@ alias taildd='clear;touch /tmp/drupal_debug.txt;tail -f /tmp/drupal_debug.txt'
 # PHP CodeSniffer alias for Drupal.
 alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt' --ignore='*.features.*.inc'"
 
-# Alias vi to vim
+#######
+# Vim #
+#######
 alias vi='vim'
+
+########
+# Grep #
+########
+alias grr='grep -Rn'
+
+########
+# Brew #
+########
+alias b='brew'
+alias bo='brew outdated'
+alias bu='brew upgrade'
+
+###########
+# Vagrant #
+###########
+alias v='vagrant'
+
+######
+# CD #
+######
+alias ..2='../..'
+alias ..3='../../..'
+alias ..4='../../../..'
+alias ..5='../../../../..'
+alias ..6='../../../../../..'
 
 # $PATH variables. (These are in a particular order.)
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
