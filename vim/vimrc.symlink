@@ -56,7 +56,7 @@ source ~/.vim/custom/ctrlp.vim
 """"""""""""
 " NerdTree "
 """"""""""""
-source ~/.vim/custom/nerdtree.vim
+"source ~/.vim/custom/nerdtree.vim
 
 """"""""""""""""""""""""""
 " Vimscript The Hard Way "

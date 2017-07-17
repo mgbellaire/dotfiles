@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'godlygeek/tabular', { 'for': ['text', 'markdown'] } " I mostly use this for Markdown tables. [tabular]
   Plug 'tpope/vim-markdown', { 'for': ['text', 'markdown'] } " Highlight with markdown syntax. [vim-markdown]
   Plug 'tpope/vim-sensible'
-  Plug 'scrooloose/nerdtree'
+  "Plug 'scrooloose/nerdtree'
   Plug 'leafgarland/typescript-vim'
   Plug 'junegunn/goyo.vim', { 'for': ['text', 'markdown'] }
   "Plug 'Shougo/unite.vim', { 'for': ['text', 'markdown'] }
