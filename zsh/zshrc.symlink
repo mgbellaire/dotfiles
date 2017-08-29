@@ -55,6 +55,7 @@ alias grr='grep -Rn'
 alias b='brew'
 alias bo='brew outdated'
 alias bu='brew upgrade'
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 ###########
 # Vagrant #
