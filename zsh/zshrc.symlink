@@ -54,7 +54,8 @@ alias grr='grep -Rn'
 ########
 alias b='brew'
 alias bo='brew outdated'
-alias bu='brew upgrade'
+alias bup='brew update'
+alias bug='brew upgrade'
 export HOMEBREW_NO_AUTO_UPDATE=1
 
 ###########
