@@ -76,6 +76,9 @@ alias ..6='../../../../../..'
 ###########
 alias ydl='youtube-dl'
 
+unset LSCOLORS
+export CLICOLOR=1
+export CLICOLOR_FORCE=1
 
 #////||\\\\#
 #|| Path ||#
