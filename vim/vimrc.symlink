@@ -16,7 +16,7 @@ set noswapfile " Do not create .swp files.
 set number " Show line numbers.
 set scrolloff=5 " Set to show at least 5 lines above and below the cursor while scrolling.
 set background=dark
-colorscheme bellaire
+colorscheme OceanicNext
 set shortmess=atI " Don't show the intro message when starting vim.
 nnoremap <c-l> :set relativenumber!<cr>:set cursorline!<cr>
 
