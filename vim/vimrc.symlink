@@ -94,14 +94,6 @@ nnoremap H ^
 " Go to end of line.
 nnoremap L $
 
-" Better escape into Normal mode.
-inoremap jk <esc>
-
-" Better yet, train yourself to use this!
-inoremap <esc> <nop>
-inoremap <c-c> <nop>
-inoremap <c-[> <nop>
-
 " Common spelling errors.
 iabbrev dursh drush
 iabbrev teh the
