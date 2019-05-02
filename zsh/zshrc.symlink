@@ -108,7 +108,8 @@ export PATH="$HOME/.composer/vendor/bin:$PATH" # Add composer's bin directory to
 ########
 export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PATH.
 
-##########
-# Meteor #
-##########
-export PACKAGE_DIRS="$HOME/Projects/meteor_packages"
+#######
+# NVM #
+#######
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
