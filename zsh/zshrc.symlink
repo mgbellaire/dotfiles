@@ -82,6 +82,11 @@ unset LSCOLORS
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
 
+########
+# Tmux #
+########
+alias tps='sh ~/bin/tps.sh'
+
 #////||\\\\#
 #|| Path ||#
 #\\\\||////#
