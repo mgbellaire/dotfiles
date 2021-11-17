@@ -91,6 +91,11 @@ alias tps='sh ~/bin/tps.sh'
 #|| Path ||#
 #\\\\||////#
 
+#######
+# ZSH #
+#######
+autoload -U add-zsh-hook
+
 ############
 # Binaries #
 ############
@@ -123,7 +128,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/Cellar/nvm/0.39.0/nvm.sh" ] && . "/opt/homebrew/Cellar/nvm/0.39.0/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 # Automatically load using `nvm use` when a .nvmrc file is present.
-autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
   local nvmrc_path="$(nvm_find_nvmrc)"
@@ -143,3 +147,16 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+#######
+# AWS #
+#######
+load-aws-credentials() {
+  local current_directory_aws="$(cat ./.aws 2>/dev/null)"
+
+  if [ "$current_directory_aws" != "" ]; then
+    echo "Sourcing AWS Credentials inside $(pwd)"
+    source ./.aws
+  fi
+}
+add-zsh-hook chpwd load-aws-credentials
