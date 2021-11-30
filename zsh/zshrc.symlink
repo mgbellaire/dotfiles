@@ -86,6 +86,11 @@ export CLICOLOR_FORCE=1
 ########
 alias tps='sh ~/bin/tps.sh'
 
+########
+# Find #
+########
+alias findf='find . -name'
+
 #////||\\\\#
 #|| Path ||#
 #\\\\||////#
