@@ -5,9 +5,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'airblade/vim-gitgutter' " Show the diff of changes in the gutter. [vim-gitgutter]
   Plug 'godlygeek/tabular', { 'for': ['text', 'markdown'] } " I mostly use this for Markdown tables. [tabular]
   Plug 'tpope/vim-markdown', { 'for': ['text', 'markdown'] } " Highlight with markdown syntax. [vim-markdown]
-  Plug 'tpope/vim-sensible',
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
+  Plug 'tpope/vim-sensible'
 call plug#end()
 
 " [vim-plug]: https://github.com/junegunn/vim-plug
