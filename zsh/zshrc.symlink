@@ -124,8 +124,8 @@ export PATH="/usr/local/node_modules/.bin:$PATH" # Add npm's bin directory to PA
 # NVM #
 #######
 export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/Cellar/nvm/0.39.0/nvm.sh" ] && . "/opt/homebrew/Cellar/nvm/0.39.0/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 # Automatically load using `nvm use` when a .nvmrc file is present.
 autoload -U add-zsh-hook
 load-nvmrc() {
