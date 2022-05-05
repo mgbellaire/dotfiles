@@ -1,0 +1,6 @@
+#!bin/bash
+screenshots=$HOME/Pictures/Screenshots
+
+# Set up screenshots directory.
+mkdir ${screenshots}
+defaults write com.apple.screencapture location ${screenshots}
