@@ -53,3 +53,9 @@ mup.json
 # ctags #
 #########
 tags
+
+# source files #
+########
+node_modules
+vendor/
+

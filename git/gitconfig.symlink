@@ -8,7 +8,7 @@
   default = simple
 [core]
   filemode = false
-  excludesfile = /Users/mark/.gitignore_global
+  excludesfile = ~/.gitignore_global
   editor = vim
 [alias]
   a = add
