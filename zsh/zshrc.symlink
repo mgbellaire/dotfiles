@@ -38,7 +38,7 @@ alias pss='ps -ax | grep -i'
 ########
 alias logs='multitail -D --mergeall /var/log/apache2/access_log /var/log/apache2/error_log'
 alias taildd='clear;touch /tmp/drupal_debug.txt;tail -f /tmp/drupal_debug.txt'
-alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt' --ignore='*.features.*.inc*.min.css'"
+alias dcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,scss,css,info,txt' --ignore='*.features.*.inc*.min.css'"
 
 #######
 # Vim #
